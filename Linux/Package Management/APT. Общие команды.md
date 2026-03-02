@@ -1,0 +1,10 @@
+- Обновить список пакетов: `sudo apt update`
+- Установить пакет: `sudo apt install <пакет>`
+- Поиск: `apt search <ключевое_слово>`
+- Удалить: `sudo apt remove <пакет>`
+- Автоудаление ненужных зависимостей: `sudo apt autoremove`
+- Обновить все пакеты: `sudo apt upgrade`
+- Показать детали: `apt-cache show <пакет>` или `dpkg -s <пакет>`
+- Установить локальный .deb `sudo dpkg -i файл.deb`, затем `sudo apt install -f` (fix зависимости)
+- Список установленных: `dpkg -l`
+- Добавить репозиторий: `sudo add-apt-repository "deb http://example.com/repo distro main"` + `sudo apt update`
