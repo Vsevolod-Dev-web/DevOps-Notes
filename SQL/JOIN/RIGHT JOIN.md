@@ -1,1 +1,0 @@
-**RIGHT JOIN** - буквально инверсия **[LEFT JOIN](LEFT%20JOIN)**
