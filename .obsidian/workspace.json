@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Practice Notes/Utilitys and Commands/exec.md",
+                "file": "Practice Notes/Linux Troubleshooting/grep stderr search.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "exec"
+              "title": "grep stderr search"
             }
           }
         ],
@@ -212,6 +212,11 @@
   "active": "633e6449ea8ad6b3",
   "lastOpenFiles": [
     "Practice Notes/Utilitys and Commands/exec.md",
+    "Practice Notes/Linux Troubleshooting/grep stderr search.md",
+    "Linux/Управление процессами/Дескриптор.md",
+    "Linux/Загрузка и инициализация системы/Загрузка системы.md",
+    "Linux/Bash Scripting/shebang.md",
+    "Linux/Форматирование и работа с разделами/Форматирование.md",
     "Linux/Управление процессами/Управление процессами.md",
     "Practice Notes/Python venv.md",
     "Linux/Bash Scripting/Аргументы.md",
@@ -219,7 +224,6 @@
     "Linux/Управление процессами/Идентифекаторы проесса.md",
     "Linux/Управление процессами/Процесс.md",
     "Linux/Управление процессами/Состояния процессов.md",
-    "Linux/Управление процессами/Дескриптор.md",
     "Linux/Управление процессами/Сигнал.md",
     "Linux/Файловая система/Монтирование/Команды для монтирования.md",
     "testnote.md"
