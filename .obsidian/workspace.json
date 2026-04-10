@@ -4,24 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "97e4ab9f379099a9",
+        "id": "16e197bb2b2676b3",
         "type": "tabs",
         "children": [
           {
-            "id": "900c386a34c31ff0",
+            "id": "ac38ae8fe125f467",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "testnote.md",
+                "file": "Practice Notes/Utilitys and Commands/exec.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "testnote"
+              "title": "exec"
+            }
+          },
+          {
+            "id": "a4192a17973c81d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Управление процессами/Идентифекаторы проесса.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Идентифекаторы проесса"
+            }
+          },
+          {
+            "id": "633e6449ea8ad6b3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +119,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "testnote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +128,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для testnote"
+              "title": "Обратные ссылки"
             }
           },
           {
@@ -113,12 +137,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "testnote.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из testnote"
+              "title": "Исходящие ссылки"
             }
           },
           {
@@ -156,13 +179,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "testnote.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура testnote"
+              "title": "Структура"
             }
           }
         ]
@@ -183,8 +205,19 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "900c386a34c31ff0",
+  "active": "633e6449ea8ad6b3",
   "lastOpenFiles": [
+    "Practice Notes/Utilitys and Commands/exec.md",
+    "Linux/Управление процессами/Управление процессами.md",
+    "Practice Notes/Python venv.md",
+    "Linux/Bash Scripting/Аргументы.md",
+    "Practice Notes/Utilitys and Commands/source.md",
+    "Linux/Управление процессами/Идентифекаторы проесса.md",
+    "Linux/Управление процессами/Процесс.md",
+    "Linux/Управление процессами/Состояния процессов.md",
+    "Linux/Управление процессами/Дескриптор.md",
+    "Linux/Управление процессами/Сигнал.md",
+    "Linux/Файловая система/Монтирование/Команды для монтирования.md",
     "testnote.md"
   ]
 }
