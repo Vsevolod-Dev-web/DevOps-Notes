@@ -1,14 +1,10 @@
 #!/bin/bash
-fileName=$1
 
-if [ -f "$fileName" ]
+if [ -f "$1" ]
 then
-    read -p "Please enter file name: " fileName
-    result=$(wc -l *$fileName)
+    result=$(wc -l $1)
     echo "There is $result lines in your file"
 
 else 
     echo "There is no such file"
 fi
-    
-search
