@@ -1,0 +1,62 @@
+ 
+CollectNetFld
+Desktop
+Documents
+Downloads
+ISIDAExtention
+Music
+NetFld
+Pictures
+Public
+Templates
+Videos
+my_extension
+polyakovConsps
+snap
+total 148
+drwxrwxrwx  2 root     root     77824 Apr 13 09:55 CollectNetFld
+drwxr-xr-x  6 vsevolod vsevolod  4096 Apr 15 13:04 Desktop
+drwxr-xr-x  2 vsevolod vsevolod  4096 Apr 15 10:13 Documents
+drwxr-xr-x  6 vsevolod vsevolod  4096 Apr 15 11:25 Downloads
+drwxrwxr-x  2 vsevolod vsevolod  4096 Apr 13 15:51 ISIDAExtention
+drwxr-xr-x  2 vsevolod vsevolod  4096 Apr  7 10:40 Music
+drwxrwxrwx  2 root     root     24576 Dec 16 08:36 NetFld
+drwxr-xr-x  4 vsevolod vsevolod  4096 Apr 14 09:33 Pictures
+drwxr-xr-x  2 vsevolod vsevolod  4096 Apr  7 10:40 Public
+drwxr-xr-x  2 vsevolod vsevolod  4096 Apr  7 10:40 Templates
+drwxr-xr-x  2 vsevolod vsevolod  4096 Apr  7 10:40 Videos
+drwxrwxrwx  2 vsevolod vsevolod  4096 Apr 14 13:10 my_extension
+drwxrwxr-x  4 vsevolod vsevolod  4096 Apr 13 10:17 polyakovConsps
+drwx------ 11 vsevolod vsevolod  4096 Apr 13 14:45 snap
+total 220
+drwxr-x--- 24 vsevolod vsevolod  4096 Apr 15 12:26 .
+drwxr-xr-x  3 root     root      4096 Apr  7 10:39 ..
+-rw-------  1 vsevolod vsevolod  6994 Apr 14 17:01 .bash_history
+-rw-r--r--  1 vsevolod vsevolod   220 Sep  8  2025 .bash_logout
+-rw-r--r--  1 vsevolod vsevolod  3771 Sep  8  2025 .bashrc
+drwx------ 15 vsevolod vsevolod  4096 Apr  7 16:17 .cache
+drwx------ 20 vsevolod vsevolod  4096 Apr 15 10:12 .config
+-rw-------  1 vsevolod vsevolod    77 Apr 15 12:26 .git-credentials
+-rw-rw-r--  1 vsevolod vsevolod    99 Apr 10 08:34 .gitconfig
+drwx------  2 vsevolod vsevolod  4096 Apr 14 11:26 .gnupg
+drwx------  4 vsevolod vsevolod  4096 Apr  7 10:40 .local
+-rw-r--r--  1 vsevolod vsevolod   369 Apr  8 15:19 .pam_environment
+drwx------  3 vsevolod vsevolod  4096 Apr  7 12:52 .pki
+-rw-r--r--  1 vsevolod vsevolod   807 Sep  8  2025 .profile
+drwx------  2 vsevolod vsevolod  4096 Apr  7 10:39 .ssh
+drwx------  5 vsevolod vsevolod  4096 Apr 15 08:49 .vnc
+drwxrwxr-x  4 vsevolod vsevolod  4096 Apr  7 13:38 .vscode
+drwxrwxrwx  2 root     root     77824 Apr 13 09:55 CollectNetFld
+drwxr-xr-x  6 vsevolod vsevolod  4096 Apr 15 13:04 Desktop
+drwxr-xr-x  2 vsevolod vsevolod  4096 Apr 15 10:13 Documents
+drwxr-xr-x  6 vsevolod vsevolod  4096 Apr 15 11:25 Downloads
+drwxrwxr-x  2 vsevolod vsevolod  4096 Apr 13 15:51 ISIDAExtention
+drwxr-xr-x  2 vsevolod vsevolod  4096 Apr  7 10:40 Music
+drwxrwxrwx  2 root     root     24576 Dec 16 08:36 NetFld
+drwxr-xr-x  4 vsevolod vsevolod  4096 Apr 14 09:33 Pictures
+drwxr-xr-x  2 vsevolod vsevolod  4096 Apr  7 10:40 Public
+drwxr-xr-x  2 vsevolod vsevolod  4096 Apr  7 10:40 Templates
+drwxr-xr-x  2 vsevolod vsevolod  4096 Apr  7 10:40 Videos
+drwxrwxrwx  2 vsevolod vsevolod  4096 Apr 14 13:10 my_extension
+drwxrwxr-x  4 vsevolod vsevolod  4096 Apr 13 10:17 polyakovConsps
+drwx------ 11 vsevolod vsevolod  4096 Apr 13 14:45 snap
