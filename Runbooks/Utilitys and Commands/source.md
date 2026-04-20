@@ -8,7 +8,7 @@ source
 
 Вот некоторые примеры:
 
-1. Активация [виртуального окружения ](Python%20venv)python:
+1. Активация [виртуального окружения ](Python%20venv.md)python:
 
 ```bash
 source venv/bin/activate
