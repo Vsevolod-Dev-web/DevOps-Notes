@@ -16,4 +16,6 @@ stop <сервис> # остановить systemctl
 restart <сервис> # перезапустить systemctl 
 enable <сервис> # добавить в автозапуск systemctl 
 disable <сервис> # убрать из автозапуска
+sudo systemctl daemon-reload # systemd перечитал все unit-файлы с диска
 ```
+
