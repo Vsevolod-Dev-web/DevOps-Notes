@@ -1,1 +1,1 @@
-# DevOps conspectus by Vsevolod Polyakov
+# DevOps notes. Written by Vsevolod Polyakov
