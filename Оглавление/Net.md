@@ -1,9 +1,9 @@
 # Net
 
 - [Internet](../Net/Internet.md)
-- [ip-адрес](../Net/ip-адрес.md)
+- [ip-адрес](ip-адрес.md)
 - [Порт](../Net/Порт.md)
-- [default gateway](../Net/default%20gateway.md)
+- [default gateway](default%20gateway.md)
 
 ## DNS
 - [DNS](../Net/DNS/DNS.md)
