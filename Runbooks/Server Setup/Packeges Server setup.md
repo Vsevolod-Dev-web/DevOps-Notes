@@ -10,3 +10,16 @@ ii  wget            1.21.4-1ubuntu4.1   amd64        retrieves files from the we
 ```
 
 Это минимальная база на сервер, со службой, с моим стеком CoinView.
+
+Packages listed next is can be called "basic", not just for my stack.
+Installed Packages:
+- node v20.20.2
+- npm v10.8.2
+- Python 3.12.3
+- GNU Wget 1.21.4 built on linux-gnu.
+- curl 8.5.0 
+- ufw 0.36.2
+- **build-essential**
+- htop
+- nano
+
