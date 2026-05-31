@@ -12,7 +12,7 @@ glavBughalter ansible_host=192.168.5.5
 glavBughalter ansible_host=192.168.5.5
 
 [windows:vars]
-ansible_host=ansible
+ansible_user=ansible
 ansible_password=StrongPasswd233
 ansible_connection=winrm
 ansible_port=5986
