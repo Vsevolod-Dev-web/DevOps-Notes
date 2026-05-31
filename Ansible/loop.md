@@ -8,13 +8,13 @@
   
   tasks:
     - name: Users-add
-    ansible.windows.win_user:
-	  name: "{{ item.name }}"
-	  password: "{{ item.password }}"
-      state: present
-    loop:
-	  - { name: vsevolod, password: 123 }
-	  - { name: oleg, password: 122 }
-	  - { name: ivan, password: MegaStrongPassrod123! }
+      ansible.windows.win_user:
+	    name: "{{ item.name }}"
+	    password: "{{ item.password }}"
+        state: present
+      loop:
+	    - { name: vsevolod, password: 123 }
+	    - { name: oleg, password: 122 }
+	    - { name: ivan, password: MegaStrongPassrod123! }
 ```
 
