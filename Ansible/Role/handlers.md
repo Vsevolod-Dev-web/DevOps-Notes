@@ -33,3 +33,22 @@ Handler запускается, когда таск в котором он ук�
 3. **Только если результат `changed`** → Ansible запоминает в очередь все handlers, перечисленные в `notify:` этого таска.
 4. Если результат `ok` (ничего не изменилось благодаря идемпотентности) → handlers НЕ ставятся в очередь.
 5. В конце плея Ansible проходит по очереди и выполняет накопленные handlers.
+
+!!! 
+
+Хоть handlers выполняются в самом конце, есть встроенный модуль позволяющий зафорсить выполнение модуля в определенном месте:
+
+```yaml
+- name: Update configuration file
+  ansible.builtin.template:
+    src: config.j2
+    dest: /etc/app/config.conf
+  notify: Restart application service
+
+- name: Force handlers to run immediately
+  ansible.builtin.meta: flush_handlers
+
+- name: Perform post-restart health check
+  ansible.builtin.command: curl http://localhost:8080/health
+
+```
