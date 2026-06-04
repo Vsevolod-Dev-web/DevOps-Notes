@@ -25,6 +25,7 @@
 	Проверка работы кластера (Поднят ли демон сервера который держит кластер ansible.builtin.service: state: started)
 
 	Таска на отправку конфигов pg_hba.conf и postgresql.conf
+Замодить права и группы для pg_hba
 
 	Вызов Handler на ребут службы после тюнинга конфигов (через ansible.builtin.meta: flush_handlers)
 
