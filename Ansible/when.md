@@ -6,7 +6,7 @@ tasks:
     ansible.windows.win_feature:
       name: Web-Server
       state: present
-    when: ansible_facts['os_family'] == "Windows"
+    when: ansible_facts['os_family'] == "Windows" # можно писать просто: os_family
 ```
 
 Так же, важно подметить, что [переменные в условие передаются](YAML) не стандартным синтаксисом:
