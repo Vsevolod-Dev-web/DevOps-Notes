@@ -82,7 +82,7 @@
 - [top htop](../Linux/Управление%20процессами/Утилиты/Анализ%20top%20htop/top%20htop.md)
 - [%CPU(s)](../Linux/Управление%20процессами/Утилиты/Анализ%20top%20htop/%25CPU(s).md)
 - [Load Average](../Linux/Управление%20процессами/Утилиты/Анализ%20top%20htop/Load%20Average.md)
-- [Buff-cache n availMem](../Linux/Управление%20процессами/Утилиты/Анализ%20top%20htop/Buff-cache%20n%20availMem.md)
+- [Buff-cache n availMem](Buff-cache%20n%20availMem.md)
 - [VIRT, RES, SHR, %MEM](../Linux/Управление%20процессами/Утилиты/Анализ%20top%20htop/VIRT,%20RES,%20SHR,%20%25MEM.md)
 - [Диагностика через TOP](../Linux/Управление%20процессами/Утилиты/Анализ%20top%20htop/Диагностика%20через%20TOP.md)
 
