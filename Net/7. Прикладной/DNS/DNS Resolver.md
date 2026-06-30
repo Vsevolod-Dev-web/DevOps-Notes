@@ -1,4 +1,4 @@
-`/etc/resolve.conf` - [DNS](DNS) конфиг. Так называемый **==DNS кэш \ резолвер==**.
+`/etc/resolve.conf` - [DNS](DNS.md) конфиг. Так называемый **==DNS кэш \ резолвер==**.
 
 В Ubuntu это `systemd-resolved`.
 
