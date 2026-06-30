@@ -6,8 +6,8 @@
 - [default gateway](default%20gateway.md)
 
 ## DNS
-- [DNS](../Net/DNS/DNS.md)
-- [DNS Resolver](../Net/DNS/DNS%20Resolver.md)
+- [DNS](DNS.md)
+- [DNS Resolver](DNS%20Resolver.md)
 
 ## Утилиты
-- [dig](../Net/Утилиты/dig.md)
+- [dig](dig.md)
