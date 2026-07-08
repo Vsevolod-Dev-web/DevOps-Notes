@@ -7,3 +7,13 @@
 ```
 
 Тогда ansible запарсит этот файл и "увидит" переменные.
+
+Переменную можно вызвать следующим образом:
+Синтаксис: `module: "{{ var }}"`
+
+Например, в строку:
+```yml
+- name: Upload tool's names based on OS Family
+	ansible.builtin.include_vars: "{{ ansible_os_family }}.yml"
+```
+
