@@ -34,4 +34,11 @@ Ansible Роль.
 
 ##### Users and prevaliges
 1. Таска на итеративное создание admin-юзеров из переменных роли.
-2. 
+
+
+## 
+1. ssh
+2. users
+	1. groups
+3. utilitys
+4. net secryrity
