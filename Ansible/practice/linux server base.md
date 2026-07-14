@@ -37,8 +37,9 @@ Ansible Роль.
 
 
 ## 
-1. ssh
+1. ssh (под паролем не отключаем у нас в инфре)
 2. users
 	1. groups
 3. utilitys
 4. net secryrity
+5. sudoers conf
