@@ -26,6 +26,8 @@
 - Создание admin-users с группой sudo (Реализовать через итеративное создание из варсов)
 - Настройка sudoers для админов
 
+***Для астры!!*** ansible.builtin.command: pdpl-user -i 63 "{{ item }}"
+
 **SSH**
 У нас на серваке конект по паролю не закрывается. Что тут настраивать? Проверка установлен ли?
 
@@ -50,30 +52,31 @@
 
 Как абстрагировать таску от os family?
 
- **Tools and Packages**
+ - [x] **Tools and Packages**
  Эта роль - базовый слой. Нужен минимальный максимум. Только самое необходимое, то что нужно на любом сервере.
 
 *Сетевые тулзы*
 - curl
 - wget
-- ufw
+- ufw (rhel - firewalld)
+- nethogs
+- iftop
+- sysstat
 
 *Диски*
-- и
+- iotop
+- lsof
+- rsync
+
+*Прочее:*
+- nano
+- screen
 
 *Мониторинг*
 -  htop
-	1. iotp - диагностика активности ввода\вывода
-	2. lsof
-	3. iostat
 
-- screen
-
-***Прочекать**:*
-- nethogs
-- iftop
-- iostat
-- rsync
+*Обязательно, в самый верх для RHEL:*
+- epel-release
 
 **NTP/Crony/Cron**
 Время и синхронизация. 
