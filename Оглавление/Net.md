@@ -2,7 +2,7 @@
 
 - [Internet](../Net/Internet.md)
 - [ip-адрес](ip-адрес.md)
-- [Порт](../Net/Порт.md)
+- [Порт](Порт.md)
 - [default gateway](default%20gateway.md)
 
 ## DNS
