@@ -17,3 +17,4 @@
 	ansible.builtin.include_vars: "{{ ansible_os_family }}.yml"
 ```
 
+То же самое работает для [tasks](tasks%20in%20role) - их можно инклюдить.
