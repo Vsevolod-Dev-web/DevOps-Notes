@@ -13,6 +13,9 @@
 | 🌐 Net        | [Оглавление/Net.md](Оглавление/Net.md)             |
 | 🗄️ SQL       | [Оглавление/SQL.md](Оглавление/SQL.md)             |
 | 🏗️ Инфра     | [Оглавление/Инфра.md](Оглавление/Инфра.md)         |
+| 🖥️ Виртуализация | [Оглавление/Виртуализация.md](Оглавление/Виртуализация.md) |
+| 🚀 PXE project | [Оглавление/PXE%20project.md](Оглавление/PXE%20project.md) |
+| 🪟 Windows    | [Оглавление/Windows.md](Оглавление/Windows.md)     |
 | ⚙️ Ansible    | [Оглавление/Ansible.md](Оглавление/Ansible.md)     |
 | 🔄 CI/CD      | [Оглавление/CI%20CD.md](Оглавление/CI%20CD.md)     |
 | 📋 Runbooks   | [Оглавление/Runbooks.md](Оглавление/Runbooks.md)   |
