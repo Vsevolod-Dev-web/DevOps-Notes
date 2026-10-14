@@ -10,7 +10,6 @@
 
 Тогда, если для switch будет известно и destination и source MAC, то запрос между этими нодами для switch будет **Known Unicast frame**.
 
-
 | Unicast frame Status                     | How is send                                       |
 | ---------------------------------------- | ------------------------------------------------- |
 | Known (Both node<br>is in MAC-table)     | Flood (Направить во все порты, кроме отправителя) |
