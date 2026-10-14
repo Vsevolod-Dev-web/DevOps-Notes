@@ -1,4 +1,4 @@
-systemd-timesyncd - это встроенная [systemd](SystemD) служба выполняющая функцию SNTP (Simple [NTP](NTP)), то есть просто синхронизирует время на машине.
+systemd-timesyncd - это встроенная [systemd](SystemD) служба выполняющая функцию SNTP (Simple [NTP](DevOps-Notes/Net/NTP.md)), то есть просто синхронизирует время на машине.
 
 При этом этот sNTP клиент - не может раздавать время другим машинам.
 
