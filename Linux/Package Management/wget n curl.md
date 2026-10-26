@@ -17,3 +17,27 @@ curl https://api.example.com/users
 ```
 
 Выведет ответ сервера в терминал.
+
+В итоге посмотрел с утилитой hpssacli (ssacli) - вывеле следующее
+```shell
+administrator@srnode03:~$ sudo hpssacli ctrl all show detail
+
+Smart Array P410 in Slot 0 (Embedded)
+   Bus Interface: PCI
+   Slot: 0
+   Controller Status: Not OK
+   Hardware Revision: Unknown
+   Total Cache Size: 0 MB
+   SATA NCQ Supported: False
+   Number of Ports: 0
+   Driver Name: hpsa
+   Driver Version: 3.4.20
+   Driver Supports HPE SSD Smart Path: True
+   PCI Address (Domain:Bus:Device.Function): 0000:86:00.0
+   Sanitize Erase Supported: False
+
+```
+Видим: контроллер не видит всё что за ним. Что это значит - "рейда нету". Соответсвенно:
+- Умерли все диски разом. - Подошёл физически - линк на дисках есть
+- Хуёво контроллеру: завис, забился кеш, умер.
+
