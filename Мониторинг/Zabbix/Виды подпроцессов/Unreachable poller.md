@@ -1,0 +1,1 @@
+***Unreachable poller*** - это тот же [poller](Poller.md), но его задача - проверять агентов которые имеют статус **unreachable**
