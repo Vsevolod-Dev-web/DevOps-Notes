@@ -46,7 +46,7 @@ administrator@srnode03:~$ cat /sys/block/sdc/device/state
 offline
 ```
 
-В итоге выясняется, что ядро диск отключило и забыло
+**В итоге выясняется, что ядро диск отключило и забыло**
 На серваке собран аппаратный рейд, RAID 5. Рейд-контроллре от HP.
 Подходящая утилита для мониторинга этого рейд контроллера: 
 
@@ -60,3 +60,13 @@ LVM на sdc (LVM раздел под виртуакли) недоступен, 
 sdc: state = offline (# cat /sys/block/sdc/device/state)
 P410: Controller Status Not OK
 ```
+
+
+Диагноз - умерла батарейка на RAID-контроллере:
+`sudo hpssacli ctrl all show detail`
+```
+Cache Status: Temporarily Disabled
+Cache Status Details: Cache disabled; low batteries. 
+Battery/Capacitor Count: 1 
+Battery/Capacitor Status: Failed (Replace Batteries)
+- [ ] ```
